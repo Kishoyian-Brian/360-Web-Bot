@@ -31,10 +31,18 @@ export class BotUpdate {
         await ctx.replyWithPhoto(
           'https://i.pinimg.com/originals/6c/7b/29/6c7b296c4a3e4c0ca659e85c29a2c7da.png',
           {
-            caption: `👋 Hello ${ctx.from?.first_name || 'there'}!\nWelcome to SnowdenEmpre 😊\nUse /help to see what I can do.\n\n📘 Here is a list of our available products:\n\n` +
-          `🛒 How to Purchase on Our Website
+            caption: `👋 Hello ${ctx.from?.first_name || 'there'}!\nWelcome to SnowdenEmpre 😊\nUse /help to see what I can do.\n\n📘 Here is a list of our available products:\n\n🛒 How to Purchase on Our Website
 Tap the bot icon at the bottom-left corner — it will direct you to our shop (DApp) connected with Telegram.
 Browse through the shop and explore our available products.
+
+📋 Available Products:
+• BANKLOGS
+• CC & CVV
+• CLONE CARD
+• TRANSFERS
+• LINKABLES
+• AND MORE
+
 If you're interested in any product, click it and add to your cart.
 Proceed to checkout and complete your payment as instructed.
 Submit your payment proof after checkout.
